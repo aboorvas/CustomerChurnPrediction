@@ -1,19 +1,19 @@
-<h1> PREDICTING CUSTOMER CHURN <h1>
+<h1> PREDICTING CUSTOMER CHURN </h1>
     
-<h2> PROBLEM SETTING <h2> 
-<h3> For any business to run in a successful manner, it matters a lot to retain the old customers. A customer once lost is always lost. It is much harder to gain the trust and attention of the customer again. Such a scenario is common in almost all the industries. Among all such industries, telecom industry faces the huge problem of customer churn each year. This is because a certain saturation point has been reached already in telecom industry. Competition is at an all-time high and many companies are recognizing the need to improve customer experience and service in order to lower customer churn rates and compete effectively. A company which identifies the causes for churning accurately and takes retention measures immediately is likely to be the giant in the telecom industry. <h3>
+<h2> PROBLEM SETTING </h2> 
+<h4> For any business to run in a successful manner, it matters a lot to retain the old customers. A customer once lost is always lost. It is much harder to gain the trust and attention of the customer again. Such a scenario is common in almost all the industries. Among all such industries, telecom industry faces the huge problem of customer churn each year. This is because a certain saturation point has been reached already in telecom industry. Competition is at an all-time high and many companies are recognizing the need to improve customer experience and service in order to lower customer churn rates and compete effectively. A company which identifies the causes for churning accurately and takes retention measures immediately is likely to be the giant in the telecom industry. </h4>
     
-PROBLEM DEFINITION
-Customer churn is a huge problem of concern for large companies nowadays. It directly impacts the company revenues. It is always more difficult and expensive to acquire a new customer than it is to retain a current paying customer. Hence, finding the factors that leads to churn could help in developing business strategies to retain the customers. A robust and accurate predictive model could be built to predict the customers who are about to churn, and the company could offer them with benefits to retain them.
+<h2> PROBLEM DEFINITION </h2> 
+<h4> Customer churn is a huge problem of concern for large companies nowadays. It directly impacts the company revenues. It is always more difficult and expensive to acquire a new customer than it is to retain a current paying customer. Hence, finding the factors that leads to churn could help in developing business strategies to retain the customers. A robust and accurate predictive model could be built to predict the customers who are about to churn, and the company could offer them with benefits to retain them. </h4> 
     
-DATA SOURCE
-This data set is taken from Kaggle under the topic Telco Customer Churn. The dataset can be accessed using the following link - https://www.kaggle.com/blastchar/telco-customer-churn
+<h2> DATA SOURCE </h2>
+<h4> This data set is taken from Kaggle under the topic Telco Customer Churn. The dataset can be accessed using the following link - https://www.kaggle.com/blastchar/telco-customer-churn <h4>
     
-DATA DESCRIPTION
+    <h2> DATA DESCRIPTION </h2>
 This dataset has records of 7043 customers with 20 features (Independent variables) and 1 target (Dependent Variable). The target variable (Churn) represents whether a customer has left a company or not. So, the target variable has two states (Yes/No). Hence this can be treated as a Binary Classification Problem. The predictor variables present in the data set are customerID, gender, SeniorCitizen, Partner, Dependents, tenure, PhoneService, MultipleLines, InternetService,
 OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges. It is obvious that the predictor “customerID” seems not necessary for our Churn prediction model. The other variables should be further analyzed to find if they impact the performance of our model in predicting churning. There are no outliers present in the numerical columns of the data set, but the data set had few nulls. 11 nulls in the “TotalCharges” variable are filled using mean imputation. Few variables were converted from Object to Numeric data type while few were converted to categorical datatype.
     
-DATA EXPLORATION
+    <h2> DATA EXPLORATION </h2>
     
 1) Correlation Analysis :
 Correlation between numerical variables and categorical variables are found separately.
