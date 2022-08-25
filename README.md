@@ -9,11 +9,11 @@
 <h2> DATA SOURCE </h2>
 <h4> This data set is taken from Kaggle under the topic Telco Customer Churn. The dataset can be accessed using the following link - https://www.kaggle.com/blastchar/telco-customer-churn <h4>
     
-    <h2> DATA DESCRIPTION </h2>
+<h2> DATA DESCRIPTION </h2>
 This dataset has records of 7043 customers with 20 features (Independent variables) and 1 target (Dependent Variable). The target variable (Churn) represents whether a customer has left a company or not. So, the target variable has two states (Yes/No). Hence this can be treated as a Binary Classification Problem. The predictor variables present in the data set are customerID, gender, SeniorCitizen, Partner, Dependents, tenure, PhoneService, MultipleLines, InternetService,
 OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges. It is obvious that the predictor “customerID” seems not necessary for our Churn prediction model. The other variables should be further analyzed to find if they impact the performance of our model in predicting churning. There are no outliers present in the numerical columns of the data set, but the data set had few nulls. 11 nulls in the “TotalCharges” variable are filled using mean imputation. Few variables were converted from Object to Numeric data type while few were converted to categorical datatype.
     
-    <h2> DATA EXPLORATION </h2>
+<h2> DATA EXPLORATION </h2>
     
 1) Correlation Analysis :
 Correlation between numerical variables and categorical variables are found separately.
